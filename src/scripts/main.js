@@ -12,7 +12,7 @@ const quantity = carouselImages.length - 1;
 
 carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 
-next.addEventListener('click', e => {
+next.addEventListener('click', (e) => {
   if (counter >= quantity) {
     counter = -1;
   }
